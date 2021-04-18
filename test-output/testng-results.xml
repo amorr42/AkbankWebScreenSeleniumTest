@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-17T21:46:34 TRT" name="BDD Test Suite" finished-at="2021-04-17T21:47:30 TRT" duration-ms="55516">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@161479c6]" name="feature" class="runner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-04-17T21:46:34 TRT" name="Akbank" finished-at="2021-04-17T21:47:30 TRT" duration-ms="55516">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.TestRunner@161479c6]" started-at="2021-04-17T21:46:34 TRT" name="setUpClass" finished-at="2021-04-17T21:46:34 TRT" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@161479c6]" started-at="2021-04-17T21:46:35 TRT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-04-17T21:47:30 TRT" duration-ms="55031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Loans Calculation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@161479c6]" started-at="2021-04-17T21:47:30 TRT" name="tearDownClass" finished-at="2021-04-17T21:47:30 TRT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Akbank -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>

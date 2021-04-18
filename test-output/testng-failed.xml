@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [BDD Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Akbank(failed)">
+    <classes>
+      <class name="runner.TestRunner">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- runner.TestRunner -->
+    </classes>
+  </test> <!-- Akbank(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->
